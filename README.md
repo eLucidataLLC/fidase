@@ -1,4 +1,6 @@
-# Falkland Islands Dependencies Aerial Survey Expedition (FIDASE)
+# Updating a Mapping Story Dating Back to the 1950s
+
+Falkland Islands & Dependencies Aerial Survey Expedition 1955-57... 
 
 ## Previous uses of these aerial photographs
 
@@ -10,7 +12,7 @@ Historical aerial photographs: Images taken by Falkland Islands Dependencies Aer
 
 ## Original Source
 
-### Falkland Islands and Dependencies Aerial Survey Expedition
+### Falkland Islands and Dependencies Aerial Survey Expedition (FIDASE)
 
 This comprises approximately 12,800 frames, taken on 26,700 kilometres of ground track. The photography was acquired between February 1956 and December 1957. The images are vertical, monochrome photographs in the standard 9" x 9" format; some small format (5" x 5") oblique photographs are also available for a restricted geographical coverage. The original negatives are held by BAS. The photography provides systematic coverage of the South Shetland Islands and the west side of the Antarctic Peninsula as far south as the northern extremity of Marguerite Bay.
 
