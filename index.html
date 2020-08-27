@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>FI 1956 Aerial Photos</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script> -->
+  <script src='../lib/mapbox-gl/mapbox-gl.js'></script>
+  <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' /> -->
+  <link href='../lib/mapbox-gl/mapbox-gl.css' rel='stylesheet' />
+  <!-- <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> -->
+  <!-- <script src='../lib/js/turf.min.js'></script> -->
+  <script src='../lib/js/jquery-3.3.1.min.js'></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='map'></div>
+  <script>
+    const SAERI = 'https://ims.saeri.org/'
+    var style = {
+      version: 8,
+      name: 'Aerial_Photos',
+      sources: {
+        'aimgs': {
+          type: 'geojson',
+          data: 'data/1956-aerial-imagery.geojson'
+        },
+        'processing': {
+          type: 'geojson',
+          // data: 'data/process/1956-aerial-imagery.geojson'
+          data: 'data/process/coastline_chunks.geojson'
+        },
+        'w_data': {
+          type: 'geojson',
+          data: 'data/Bleaker_Island.geojson'
+        },
+        'CoastLines': {
+          type: 'geojson',
+          data: 'data/fi-coast-lines.geojson'
+        },
+        'FligthLines': {
+          type: 'geojson',
+          data: 'data/1956-flight-lines.geojson'
+        }
+      },
+      glyphs: '../lib/font/{fontstack}/{range}.pbf',
+      layers: [{
+          id: 'CoastLines',
+          type: 'line',
+          source: 'CoastLines',
+          paint: {
+            // 'line-color': '#486DE0'
+          },
+          layout: {
+            // visibility: 'none'
+          }
+        },
+        {
+          id: 'FligthLines',
+          type: 'line',
+          source: 'FligthLines',
+          paint: {
+            'line-color': '#486DE0',
+          },
+          layout: {
+            'visibility': 'none'
+          }
+        },
+        {
+          id: 'FligthLines_Labels',
+          type: 'symbol',
+          source: 'FligthLines',
+          layout: {
+            'text-field': '{FILM} {FRAME} {FRAMES}',
+            'text-font': ['Open Sans Semibold'],
+            'text-size': 12,
+            'visibility': 'none'
+          }
+        },
+        {
+          id: 'aimgs_layer',
+          source: 'aimgs',
+          type: 'line',
+          paint: {
+            'line-color': ['match', ['get', 'present'], 0, '#cd0000', '#8dad24'],
+            'line-opacity': .5,
+          },
+          layout: {
+            // 'visibility': 'none'
+          },
+        },
+        {
+          id: 'geotiff_layer',
+          source: 'aimgs',
+          type: 'fill',
+          paint: {
+            'fill-color': ['match', ['get', 'geotiff'], 1, '#ff7f00', 'transparent'],
+            'fill-opacity': .5,
+          },
+          layout: {
+            'visibility': 'none'
+          }
+        },
+        {
+          id: 'Bleaker_Island',
+          source: 'w_data',
+          type: 'fill',
+          paint: {
+            'fill-color': '#ff7f00',
+            'fill-opacity': .5,
+          },
+          layout: {
+            // 'visibility': 'none'
+          }
+        },
+        {
+          id: 'coast_chunks',
+          source: 'processing',
+          type: 'line',
+          paint: {
+            'line-width': 3,
+            'line-color': '#2e6136',
+            'line-opacity': .5,
+          },
+          layout: {
+            'visibility': 'none'
+          }
+        },
+        {
+          id: 'CoastLines_Labels',
+          type: 'symbol',
+          source: 'CoastLines',
+          layout: {
+            // 'text-field': '{loc_name} {wider_area}',
+            'text-field': '{loc_name}',
+            'text-font': ['Open Sans Semibold'],
+            'text-size': 12,
+            // 'visibility': 'none'
+          }
+        },
+        {
+          id: 'processing_layer',
+          source: 'aimgs',
+          type: 'line',
+          paint: {
+            'line-color': ['match', ['get', 'coastal'], 1, '#8300ff', 'transparent'],
+            'line-opacity': .5,
+          },
+          layout: {
+            'visibility': 'none'
+          }
+        }
+      ]
+    };
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: style,
+      center: [-59.3866, -51.7712], // Falklands
+      zoom: 8, // starting zoom
+      hash: style
+    });
+    map.on('load', function() {
+      map.addControl(new mapboxgl.ScaleControl());
+      var images = $.ajax({
+        url: "data/process/1956-aerial-imagery.geojson",
+        dataType: "json",
+        success: console.log("Data successfully loaded."),
+        error: function(xhr) {
+          alert(xhr.statusText)
+        }
+      });
+      $.when(images).done(function() {
+        // turf.featureEach(images.responseJSON, function(currentFeature, featureIndex) {
+        images.responseJSON.features.forEach(function(currentFeature) {
+          if (currentFeature.properties.geotiff == 1) {
+            polyPhoto = currentFeature.geometry.coordinates[0];
+            coorPhoto = [polyPhoto[2], polyPhoto[1], polyPhoto[0], polyPhoto[3]];
+            console.log(coorPhoto);
+            imageName = currentFeature.properties.name;
+            map.addLayer({
+              'id': imageName,
+              'type': 'raster',
+              'source': {
+                'type': 'image',
+                'url': 'img/' + imageName + '.jpg',
+                'coordinates': coorPhoto
+              },
+              "paint": {
+                "raster-opacity": 0.85
+              },
+              layout: {
+                // 'visibility': 'none'
+              }
+            });
+          };
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>

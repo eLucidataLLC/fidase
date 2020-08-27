@@ -1,0 +1,1433 @@
+{
+  "FI 25": {
+    "111": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "148": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "134-135": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "105-110": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "039-029": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "047-048": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "099-100": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "096-083": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "157-149": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "136-147": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "127-112": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "131-131": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "045-041": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "052-054": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "056-059": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "101-102": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "097-098": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "159-165": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "028-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "063-082": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "103-104": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 04": {
+    "019-023": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "134-147": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "099-119": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "051-048": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "076-081": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "063-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "065-075": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "045-042": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "026-030": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "037-033": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "010-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "120-133": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 28": {
+    "041-074": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "105-120": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "102-075": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "039-008": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 33": {
+    "042": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "071": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "069-070": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "125-113": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "034-002": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "041-036": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "045-068": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "073-110": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "160-126": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 30": {
+    "096-071": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "098-97": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "102-141": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "020-055": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "003-046": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "052-050": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 32": {
+    "104-062": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "001-004": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "015-023": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "059-060": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "005-013": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "106-105": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "024-057": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 14": {
+    "141-093": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "041-043": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "085-092": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "082-098": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "142-167": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "044-80": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "036-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "016-012": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 31": {
+    "093-053": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "052-050": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "044-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "045-049": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 03": {
+    "101": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "119-130": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "100-073": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "001-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "072-055": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "137-171": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "177-179": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 13": {
+    "107-118": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "105-107": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "077-092": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "103-093": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "126-154": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "009-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "058-048": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "059-062": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "067-063": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "068-073": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "076-074": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "040-010": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 29": {
+    "053-043": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "040-026": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "056-072": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "075-102": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "025-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "107-153": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 17": {
+    "093": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "093-094": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "094": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "157-124": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "003-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "096-122": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "167-165": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "021-014": {
+      "H_OFFSET": 2.57,
+      "V_OFFSET": -0.60,
+      "A_RECTFN": 8.67
+    },
+    "034-042": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "024-027": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "050-043": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "091-080": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "061-051": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "069-078": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "063-066": {
+      "H_OFFSET": 0,
+      "V_OFFSET": 0.5,
+      "S_RECTFN": 0.176
+    },
+    "028-030": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 01": {
+    "113-185": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "087-036": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "109-092": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "035-008": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "007-003": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 23": {
+    "047-002": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 34": {
+    "096-102": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "083-085": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "041-015": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "046-082": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "086-095": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "014-003": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "042-045": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 02": {
+    "064-051": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "009-005": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "067-084": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "185-184": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "182-140": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "050-010": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "087-138": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 36": {
+    "145": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "150-146": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "125-131": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "114-120": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "079-083": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "062-078": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "060-027": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "157-151": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "085-113": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "121-124": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "132-144": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "025-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 15": {
+    "091-086": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "111-099": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "135-131": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "136-183": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "001-029": {
+      "REC_SIZE": 5.0,
+      "H_OFFSET": -3.65,
+      "V_OFFSET": 1.70,
+      "S_RECTFN": 0.176
+    },
+    "130-112": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "098-092": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "031-083": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 22": {
+    "072-077": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "043-028": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "100-095": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "078-081": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "044-071": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "145-105": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "027-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "104-101": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "082-092": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 21": {
+    "070-075": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "050-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "057-069": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "039-001": {
+      "REC_SIZE": 5.72,
+      "H_OFFSET": 1.60,
+      "V_OFFSET": -2,
+      "S_RECTFN": 0
+    },
+    "076-108": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "046-047": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "042-041": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "053-056": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 12": {
+    "108-109": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "107-106": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "097-093": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "091-049": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "048-003": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "098-103": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "111-152": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "002-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 26": {
+    "100-109": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "095-099": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "122-127": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "116-119": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "094-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "110-115": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "051-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "128-158": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 24": {
+    "063-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "031-051": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "017-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "018-024": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "028-023": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "030-029": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 16": {
+    "053": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "094-054": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "049-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "050-051": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 20": {
+    "104-105": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "091-093": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "090-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "094-102": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "106-182": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 35": {
+    "100": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "083-080": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "143-141": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "096": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "093-084": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "153-151": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "146-144": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "137-128": {
+      "H_OFFSET": 0.1,
+      "V_OFFSET": 0.77,
+      "S_RECTFN": 0
+    },
+    "118-124": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "110-114": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "099-097": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "079-002": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "155-174": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "126-127": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "104-105": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 08": {
+    "020-016": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "015-002": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 37": {
+    "135-107": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "082-105": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "079-052": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "050-001": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 18": {
+    "004-046": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  },
+  "FI 27": {
+    "104-102": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "098-087": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "085-084": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "106-114": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "081-002": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "116-155": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    },
+    "162-180": {
+      "REC_SIZE": 4.46,
+      "H_OFFSET": 0.42,
+      "V_OFFSET": 0.715,
+      "S_RECTFN": 0.176
+    }
+  }
+}
