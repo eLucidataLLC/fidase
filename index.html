@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset='utf-8' />
   <title>FI 1956 Aerial Photos</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script> -->
-  <script src='../lib/mapbox-gl/mapbox-gl.js'></script>
-  <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' /> -->
-  <link href='../lib/mapbox-gl/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+  <!-- <script src='../lib/mapbox-gl/dist/mapbox-gl.js'></script> -->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+  <!-- <link href='../lib/mapbox-gl/dist/mapbox-gl.css' rel='stylesheet' /> -->
   <!-- <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> -->
   <!-- <script src='../lib/js/turf.min.js'></script> -->
-  <script src='../lib/js/jquery-3.3.1.min.js'></script>
+  <!-- <script src='../lib/js/jquery-3.3.1.min.js'></script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <style>
     body {
       margin: 0;
@@ -45,7 +47,7 @@
         },
         'w_data': {
           type: 'geojson',
-          data: 'data/Bleaker_Island.geojson'
+          data: '../w_data/Bleaker_Island.geojson'
         },
         'CoastLines': {
           type: 'geojson',
@@ -195,7 +197,7 @@
               'type': 'raster',
               'source': {
                 'type': 'image',
-                'url': 'img/' + imageName + '.jpg',
+                'url': '../fias-1956-thumbnail/' + imageName + '.jpg',
                 'coordinates': coorPhoto
               },
               "paint": {
