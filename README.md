@@ -1,6 +1,8 @@
 # Updating a Mapping Story Dating Back to the 1950s
 
-Falkland Islands & Dependencies Aerial Survey Expedition 1955-57... 
+Falkland Islands & Dependencies Aerial Survey Expedition 1955-57...
+
+See the map [here](https://elucidatallc.github.io/fidase)
 
 ## Previous uses of these aerial photographs
 
