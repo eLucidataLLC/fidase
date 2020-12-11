@@ -18,7 +18,6 @@
       margin: 0;
       padding: 0;
     }
-
     #map {
       position: absolute;
       top: 0;
@@ -31,7 +30,8 @@
 <body>
   <div id='map'></div>
   <script>
-    const SAERI = 'https://ims.saeri.org/'
+    const SAERI = 'https://ims.saeri.org/fias-1956-thumbnail/';
+    // const IMGS = 'https://ims.saeri.org/lizmapsaeri/www/index.php/view/media/getMedia?repository=f05&project=fi_coastal_habmap_wu&path=media%2Fphotos%2F';
     var style = {
       version: 8,
       name: 'Aerial_Photos',
@@ -45,10 +45,10 @@
           // data: 'data/process/1956-aerial-imagery.geojson'
           data: 'data/process/coastline_chunks.geojson'
         },
-        'w_data': {
-          type: 'geojson',
-          data: '../w_data/Bleaker_Island.geojson'
-        },
+        // 'w_data': {
+        //   type: 'geojson',
+        //   data: '../process/Bleaker_Island.geojson'
+        // },
         'CoastLines': {
           type: 'geojson',
           data: 'data/fi-coast-lines.geojson'
@@ -58,7 +58,7 @@
           data: 'data/1956-flight-lines.geojson'
         }
       },
-      glyphs: '../lib/font/{fontstack}/{range}.pbf',
+      // glyphs: '../lib/font/{fontstack}/{range}.pbf',
       layers: [{
           id: 'CoastLines',
           type: 'line',
@@ -81,17 +81,17 @@
             'visibility': 'none'
           }
         },
-        {
-          id: 'FligthLines_Labels',
-          type: 'symbol',
-          source: 'FligthLines',
-          layout: {
-            'text-field': '{FILM} {FRAME} {FRAMES}',
-            'text-font': ['Open Sans Semibold'],
-            'text-size': 12,
-            'visibility': 'none'
-          }
-        },
+        // {
+        //   id: 'FligthLines_Labels',
+        //   type: 'symbol',
+        //   source: 'FligthLines',
+        //   layout: {
+        //     'text-field': '{FILM} {FRAME} {FRAMES}',
+        //     'text-font': ['Open Sans Semibold'],
+        //     'text-size': 12,
+        //     'visibility': 'none'
+        //   }
+        // },
         {
           id: 'aimgs_layer',
           source: 'aimgs',
@@ -116,18 +116,18 @@
             'visibility': 'none'
           }
         },
-        {
-          id: 'Bleaker_Island',
-          source: 'w_data',
-          type: 'fill',
-          paint: {
-            'fill-color': '#ff7f00',
-            'fill-opacity': .5,
-          },
-          layout: {
-            // 'visibility': 'none'
-          }
-        },
+        // {
+        //   id: 'Bleaker_Island',
+        //   source: 'w_data',
+        //   type: 'fill',
+        //   paint: {
+        //     'fill-color': '#ff7f00',
+        //     'fill-opacity': .5,
+        //   },
+        //   layout: {
+        //     // 'visibility': 'none'
+        //   }
+        // },
         {
           id: 'coast_chunks',
           source: 'processing',
@@ -141,18 +141,18 @@
             'visibility': 'none'
           }
         },
-        {
-          id: 'CoastLines_Labels',
-          type: 'symbol',
-          source: 'CoastLines',
-          layout: {
-            // 'text-field': '{loc_name} {wider_area}',
-            'text-field': '{loc_name}',
-            'text-font': ['Open Sans Semibold'],
-            'text-size': 12,
-            // 'visibility': 'none'
-          }
-        },
+        // {
+        //   id: 'CoastLines_Labels',
+        //   type: 'symbol',
+        //   source: 'CoastLines',
+        //   layout: {
+        //     // 'text-field': '{loc_name} {wider_area}',
+        //     'text-field': '{loc_name}',
+        //     'text-font': ['Open Sans Semibold'],
+        //     'text-size': 12,
+        //     'visibility': 'none'
+        //   }
+        // },
         {
           id: 'processing_layer',
           source: 'aimgs',
@@ -185,19 +185,20 @@
         }
       });
       $.when(images).done(function() {
-        // turf.featureEach(images.responseJSON, function(currentFeature, featureIndex) {
         images.responseJSON.features.forEach(function(currentFeature) {
           if (currentFeature.properties.geotiff == 1) {
             polyPhoto = currentFeature.geometry.coordinates[0];
             coorPhoto = [polyPhoto[2], polyPhoto[1], polyPhoto[0], polyPhoto[3]];
-            console.log(coorPhoto);
+            // console.log(coorPhoto);
             imageName = currentFeature.properties.name;
             map.addLayer({
               'id': imageName,
               'type': 'raster',
+              'dataType': 'jsonp',
               'source': {
                 'type': 'image',
-                'url': '../fias-1956-thumbnail/' + imageName + '.jpg',
+                'url': 'img/' + imageName + '.jpg',
+                // 'url': SAERI + imageName + '.jpg',
                 'coordinates': coorPhoto
               },
               "paint": {
