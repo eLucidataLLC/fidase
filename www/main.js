@@ -1,3 +1,6 @@
+/*
+version 2
+*/
 mapboxgl.accessToken = 'pk.eyJ1IjoiZWxwYmF0aXN0YSIsImEiOiJ4YlBmNmlJIn0.x0lZKcK907BWTS4LV9dkHA';
 const SAERI = 'https://ims.saeri.org/fias-1956-thumbnail/';
 var sources = {
