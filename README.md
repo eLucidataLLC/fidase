@@ -2,7 +2,7 @@
 
 Falkland Islands & Dependencies Aerial Survey Expedition 1955-57...
 
-See the map [here](https://elucidatallc.github.io/fidase)
+See the map [here](https://elucidatallc.github.io/fidase/www/)
 
 ## Previous uses of these aerial photographs
 
