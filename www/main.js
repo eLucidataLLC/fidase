@@ -23,10 +23,10 @@ var layers = {
     }
   },
   squares: {
-    'id': 'aimgs_layer',
-    'type': 'line',
-    'source': sources.imagery,
-    'paint': {
+    id: 'squares',
+    type: 'line',
+    source: sources.imagery,
+    paint: {
       'line-color': ['match', ['get', 'present'], 0, '#cd0000', '#8dad24'],
       'line-opacity': .65,
     }
@@ -34,11 +34,10 @@ var layers = {
 };
 var map = new mapboxgl.Map({
   container: 'map',
-  // style: style,
-  style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+  style: 'mapbox://styles/mapbox/satellite-v9?optimize=true',
   center: [-59.3866, -51.7712], // Falklands
-  zoom: 8, // starting zoom
-  hash: style
+  zoom: 8,
+  hash: true
 });
 map.on('load', function() {
   map.addLayer(layers.flightLines);
@@ -56,21 +55,17 @@ map.on('load', function() {
     images.responseJSON.features.forEach(function(currentFeature) {
       if (currentFeature.properties.geotiff == 1) {
         polyPhoto = currentFeature.geometry.coordinates[0];
-        coorPhoto = [polyPhoto[2], polyPhoto[1], polyPhoto[0], polyPhoto[3]];
-        // console.log(coorPhoto);
         imageName = currentFeature.properties.name;
         map.addLayer({
-          'id': imageName,
-          'type': 'raster',
-          'dataType': 'jsonp',
-          'source': {
-            'type': 'image',
-            'url': '../img/' + imageName + '.jpg',
-            // 'url': SAERI + imageName + '.jpg',
-            'coordinates': coorPhoto
+          id: imageName,
+          type: 'raster',
+          source: {
+            type: 'image',
+            url: '../img/' + imageName + '.jpg',
+            coordinates: [polyPhoto[2], polyPhoto[1], polyPhoto[0], polyPhoto[3]]
           },
-          "paint": {
-            "raster-opacity": 0.75
+          paint: {
+            'raster-opacity': 0.75
           },
         });
       };
